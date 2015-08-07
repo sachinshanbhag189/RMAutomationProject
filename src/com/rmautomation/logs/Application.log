@@ -1,88 +1,76 @@
-07-Aug-2015__01_20_20PM devpinoyLogger Hello
-07-Aug-2015__01_20_20PM devpinoyLogger -------- Oracle JDBC Connection . Connecting to Oracle database------
-07-Aug-2015__01_20_22PM devpinoyLogger Connection to the Database was successful
-07-Aug-2015__01_20_22PM devpinoyLogger Properties loaded. Starting testing
-07-Aug-2015__01_20_22PM devpinoyLogger Initialize Suite xlsx
-07-Aug-2015__01_20_23PM devpinoyLogger Login_Test_Suite -- N
-07-Aug-2015__01_20_23PM devpinoyLogger Department_Test_Suite -- Y
-07-Aug-2015__01_20_23PM devpinoyLogger ******Executing the Suite******Department_Test_Suite
-07-Aug-2015__01_20_24PM devpinoyLogger Blank_Department_Test -- N
-07-Aug-2015__01_20_24PM devpinoyLogger Add_Del_Department_Test -- Y
-07-Aug-2015__01_20_24PM devpinoyLogger Executing the test case -> Add_Del_Department_Test
-07-Aug-2015__01_20_24PM devpinoyLogger Iteration number 1
-07-Aug-2015__01_20_24PM devpinoyLogger openBrowser
-07-Aug-2015__01_20_24PM devpinoyLogger Opening browser
-07-Aug-2015__01_20_52PM devpinoyLogger PASS
-07-Aug-2015__01_20_52PM devpinoyLogger loginToRMApplication
-07-Aug-2015__01_21_08PM devpinoyLogger Logging in to the Application
-07-Aug-2015__01_21_38PM devpinoyLogger PASS
-07-Aug-2015__01_21_38PM devpinoyLogger clickLink
-07-Aug-2015__01_21_38PM devpinoyLogger Clicking on link 
-07-Aug-2015__01_21_45PM devpinoyLogger PASS
-07-Aug-2015__01_21_45PM devpinoyLogger clickLink
-07-Aug-2015__01_21_45PM devpinoyLogger Clicking on link 
-07-Aug-2015__01_21_46PM devpinoyLogger PASS
-07-Aug-2015__01_21_46PM devpinoyLogger verifyPageNavigation
-07-Aug-2015__01_21_46PM devpinoyLogger Verifying whether the navigation was successful
-07-Aug-2015__01_21_46PM devpinoyLogger Test to check that the user is not taken to another page
-07-Aug-2015__01_21_53PM devpinoyLogger PASS
-07-Aug-2015__01_21_53PM devpinoyLogger delete_record_if_already_present
-07-Aug-2015__01_21_53PM devpinoyLogger Verifying that the record is present in the db table or not
-07-Aug-2015__01_21_53PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__01_21_54PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__01_21_55PM devpinoyLogger Running the Prepared Statement
-07-Aug-2015__01_21_55PM devpinoyLogger The result of data in db after adding the data is 0
-07-Aug-2015__01_21_55PM devpinoyLogger The record is not present in the db table - DEPARTMENT
-07-Aug-2015__01_21_55PM devpinoyLogger Verifying that the record is present in the web table or not
-07-Aug-2015__01_21_55PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__01_21_55PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__01_22_16PM devpinoyLogger delete_record_if_already_present method finished
-07-Aug-2015__01_22_16PM devpinoyLogger PASS
-07-Aug-2015__01_22_16PM devpinoyLogger waitForElementInVisibilityinWebTable
-07-Aug-2015__01_22_16PM devpinoyLogger Waiting for an element to be invisible
-07-Aug-2015__01_22_16PM devpinoyLogger PASS
-07-Aug-2015__01_22_16PM devpinoyLogger verify_department_count
-07-Aug-2015__01_22_16PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__01_22_16PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__01_22_16PM devpinoyLogger The DEPARTMENT count in the Database = 55 and the count on the Web Page = 55. The count is matching.
-07-Aug-2015__01_22_16PM devpinoyLogger PASS
-07-Aug-2015__01_22_16PM devpinoyLogger writeInInput
-07-Aug-2015__01_22_16PM devpinoyLogger Writing in text box
-07-Aug-2015__01_22_17PM devpinoyLogger PASS
-07-Aug-2015__01_22_17PM devpinoyLogger clickButton
-07-Aug-2015__01_22_17PM devpinoyLogger Clicking on Button
-07-Aug-2015__01_22_18PM devpinoyLogger PASS
-07-Aug-2015__01_22_18PM devpinoyLogger waitForElementVisibilityinWebTable
-07-Aug-2015__01_22_18PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__01_22_21PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__01_22_21PM devpinoyLogger Waiting for an element to be visible
-07-Aug-2015__01_22_21PM devpinoyLogger PASS
-07-Aug-2015__01_22_21PM devpinoyLogger verify_department_count
-07-Aug-2015__01_22_21PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__01_22_21PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__01_22_22PM devpinoyLogger The DEPARTMENT count in the Database = 56 and the count on the Web Page = 56. The count is matching.
-07-Aug-2015__01_22_22PM devpinoyLogger PASS
-07-Aug-2015__01_22_22PM devpinoyLogger verify_data_found_into_database
-07-Aug-2015__01_22_22PM devpinoyLogger Verifying that the record is present in the db table or not
-07-Aug-2015__01_22_22PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__01_22_22PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__01_22_24PM devpinoyLogger Running the Prepared Statement
-07-Aug-2015__01_22_24PM devpinoyLogger The result of data in db after adding the data is 1
-07-Aug-2015__01_22_24PM devpinoyLogger The record is present in the db table - DEPARTMENT
-07-Aug-2015__01_22_24PM devpinoyLogger PASS
-07-Aug-2015__01_22_24PM devpinoyLogger confirm_delete_record
-07-Aug-2015__01_22_25PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__01_22_28PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__01_22_28PM devpinoyLogger The record successfully deleted
-07-Aug-2015__01_22_28PM devpinoyLogger PASS
-07-Aug-2015__01_22_28PM devpinoyLogger verify_data_deleted_from_database
-07-Aug-2015__01_22_28PM devpinoyLogger Verifying that the record is deleted from the db table or not
-07-Aug-2015__01_22_28PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__01_22_28PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__01_22_38PM devpinoyLogger Running the Prepared Statement
-07-Aug-2015__01_22_38PM devpinoyLogger The record was also found to be deleted from the db table - DEPARTMENT
-07-Aug-2015__01_22_38PM devpinoyLogger PASS
-07-Aug-2015__01_22_38PM devpinoyLogger logoutApplication
-07-Aug-2015__01_22_38PM devpinoyLogger Logging out of the Application
-07-Aug-2015__01_22_39PM devpinoyLogger PASS
-07-Aug-2015__01_22_42PM devpinoyLogger Edit_Department_Test -- N
+07-Aug-2015__03_21_20PM devpinoyLogger Hello
+07-Aug-2015__03_21_20PM devpinoyLogger -------- Oracle JDBC Connection . Connecting to Oracle database------
+07-Aug-2015__03_21_23PM devpinoyLogger Connection to the Database was successful
+07-Aug-2015__03_21_23PM devpinoyLogger Properties loaded. Starting testing
+07-Aug-2015__03_21_23PM devpinoyLogger Initialize Suite xlsx
+07-Aug-2015__03_21_24PM devpinoyLogger Login_Test_Suite -- N
+07-Aug-2015__03_21_24PM devpinoyLogger Department_Test_Suite -- Y
+07-Aug-2015__03_21_24PM devpinoyLogger ******Executing the Suite******Department_Test_Suite
+07-Aug-2015__03_21_25PM devpinoyLogger Blank_Department_Test -- N
+07-Aug-2015__03_21_25PM devpinoyLogger Add_Del_Department_Test -- Y
+07-Aug-2015__03_21_25PM devpinoyLogger Executing the test case -> Add_Del_Department_Test
+07-Aug-2015__03_21_25PM devpinoyLogger Iteration number 1
+07-Aug-2015__03_21_25PM devpinoyLogger openBrowser
+07-Aug-2015__03_21_25PM devpinoyLogger Opening browser
+07-Aug-2015__03_21_30PM devpinoyLogger PASS
+07-Aug-2015__03_21_30PM devpinoyLogger loginToRMApplication
+07-Aug-2015__03_21_45PM devpinoyLogger Logging in to the Application
+07-Aug-2015__03_22_16PM devpinoyLogger PASS
+07-Aug-2015__03_22_16PM devpinoyLogger clickLink
+07-Aug-2015__03_22_16PM devpinoyLogger Clicking on link 
+07-Aug-2015__03_22_43PM devpinoyLogger PASS
+07-Aug-2015__03_22_43PM devpinoyLogger clickLink
+07-Aug-2015__03_22_43PM devpinoyLogger Clicking on link 
+07-Aug-2015__03_22_43PM devpinoyLogger PASS
+07-Aug-2015__03_22_43PM devpinoyLogger verifyPageNavigation
+07-Aug-2015__03_22_43PM devpinoyLogger Verifying whether the navigation was successful
+07-Aug-2015__03_22_43PM devpinoyLogger Test to check that the user is not taken to another page
+07-Aug-2015__03_22_52PM devpinoyLogger FAIL -- User not taken to the expected page. Actual url = http://10.14.41.39:8082/RM/xhtml/manageWorkItem/manageWorkItemsPage.xhtml
+07-Aug-2015__03_22_53PM devpinoyLogger delete_record_if_already_present
+07-Aug-2015__03_22_53PM devpinoyLogger Verifying that the record is present in the db table or not
+07-Aug-2015__03_22_53PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+07-Aug-2015__03_22_53PM devpinoyLogger Ajax Loader gone
+07-Aug-2015__03_22_54PM devpinoyLogger Running the Prepared Statement
+07-Aug-2015__03_22_54PM devpinoyLogger The result of data in db after adding the data is 1
+07-Aug-2015__03_22_54PM devpinoyLogger The record is present in the db table - DEPARTMENT
+07-Aug-2015__03_22_54PM devpinoyLogger Verifying that the record is present in the web table or not
+07-Aug-2015__03_22_54PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+07-Aug-2015__03_22_54PM devpinoyLogger Ajax Loader gone
+07-Aug-2015__03_22_55PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+07-Aug-2015__03_23_01PM devpinoyLogger Ajax Loader gone
+07-Aug-2015__03_23_01PM devpinoyLogger The record successfully deleted
+07-Aug-2015__03_23_01PM devpinoyLogger delete_record_if_already_present method finished
+07-Aug-2015__03_23_01PM devpinoyLogger PASS
+07-Aug-2015__03_23_01PM devpinoyLogger waitForElementInVisibilityinWebTable
+07-Aug-2015__03_23_01PM devpinoyLogger Waiting for an element to be invisible
+07-Aug-2015__03_23_01PM devpinoyLogger PASS
+07-Aug-2015__03_23_01PM devpinoyLogger verify_department_count
+07-Aug-2015__03_23_01PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+07-Aug-2015__03_23_01PM devpinoyLogger Ajax Loader gone
+07-Aug-2015__03_23_02PM devpinoyLogger The DEPARTMENT count in the Database = 55 and the count on the Web Page = 55. The count is matching.
+07-Aug-2015__03_23_02PM devpinoyLogger PASS
+07-Aug-2015__03_23_02PM devpinoyLogger writeInInput
+07-Aug-2015__03_23_02PM devpinoyLogger Writing in text box
+07-Aug-2015__03_23_02PM devpinoyLogger PASS
+07-Aug-2015__03_23_02PM devpinoyLogger clickButton
+07-Aug-2015__03_23_02PM devpinoyLogger Clicking on Button
+07-Aug-2015__03_23_02PM devpinoyLogger PASS
+07-Aug-2015__03_23_02PM devpinoyLogger waitForElementVisibilityinWebTable
+07-Aug-2015__03_23_02PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+07-Aug-2015__03_23_02PM devpinoyLogger Ajax Loader gone
+07-Aug-2015__03_23_02PM devpinoyLogger Waiting for an element to be visible
+07-Aug-2015__03_23_02PM devpinoyLogger PASS
+07-Aug-2015__03_23_02PM devpinoyLogger verify_department_count
+07-Aug-2015__03_23_02PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+07-Aug-2015__03_23_02PM devpinoyLogger Ajax Loader gone
+07-Aug-2015__03_23_02PM devpinoyLogger The DEPARTMENT count in the Database = 55 and the count on the Web Page = 55. The count is matching.
+07-Aug-2015__03_23_02PM devpinoyLogger PASS
+07-Aug-2015__03_23_02PM devpinoyLogger verify_data_found_into_database
+07-Aug-2015__03_23_02PM devpinoyLogger Verifying that the record is present in the db table or not
+07-Aug-2015__03_23_02PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+07-Aug-2015__03_23_02PM devpinoyLogger Ajax Loader gone
+07-Aug-2015__03_23_03PM devpinoyLogger Running the Prepared Statement
+07-Aug-2015__03_23_03PM devpinoyLogger The result of data in db after adding the data is 0
+07-Aug-2015__03_23_03PM devpinoyLogger The record is not present in the db table - DEPARTMENT
+07-Aug-2015__03_23_03PM devpinoyLogger FAIL: -- The record is not present in the db table -DEPARTMENT
+07-Aug-2015__03_23_04PM devpinoyLogger confirm_delete_record
