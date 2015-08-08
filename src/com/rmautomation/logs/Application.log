@@ -1,76 +1,141 @@
-07-Aug-2015__03_21_20PM devpinoyLogger Hello
-07-Aug-2015__03_21_20PM devpinoyLogger -------- Oracle JDBC Connection . Connecting to Oracle database------
-07-Aug-2015__03_21_23PM devpinoyLogger Connection to the Database was successful
-07-Aug-2015__03_21_23PM devpinoyLogger Properties loaded. Starting testing
-07-Aug-2015__03_21_23PM devpinoyLogger Initialize Suite xlsx
-07-Aug-2015__03_21_24PM devpinoyLogger Login_Test_Suite -- N
-07-Aug-2015__03_21_24PM devpinoyLogger Department_Test_Suite -- Y
-07-Aug-2015__03_21_24PM devpinoyLogger ******Executing the Suite******Department_Test_Suite
-07-Aug-2015__03_21_25PM devpinoyLogger Blank_Department_Test -- N
-07-Aug-2015__03_21_25PM devpinoyLogger Add_Del_Department_Test -- Y
-07-Aug-2015__03_21_25PM devpinoyLogger Executing the test case -> Add_Del_Department_Test
-07-Aug-2015__03_21_25PM devpinoyLogger Iteration number 1
-07-Aug-2015__03_21_25PM devpinoyLogger openBrowser
-07-Aug-2015__03_21_25PM devpinoyLogger Opening browser
-07-Aug-2015__03_21_30PM devpinoyLogger PASS
-07-Aug-2015__03_21_30PM devpinoyLogger loginToRMApplication
-07-Aug-2015__03_21_45PM devpinoyLogger Logging in to the Application
-07-Aug-2015__03_22_16PM devpinoyLogger PASS
-07-Aug-2015__03_22_16PM devpinoyLogger clickLink
-07-Aug-2015__03_22_16PM devpinoyLogger Clicking on link 
-07-Aug-2015__03_22_43PM devpinoyLogger PASS
-07-Aug-2015__03_22_43PM devpinoyLogger clickLink
-07-Aug-2015__03_22_43PM devpinoyLogger Clicking on link 
-07-Aug-2015__03_22_43PM devpinoyLogger PASS
-07-Aug-2015__03_22_43PM devpinoyLogger verifyPageNavigation
-07-Aug-2015__03_22_43PM devpinoyLogger Verifying whether the navigation was successful
-07-Aug-2015__03_22_43PM devpinoyLogger Test to check that the user is not taken to another page
-07-Aug-2015__03_22_52PM devpinoyLogger FAIL -- User not taken to the expected page. Actual url = http://10.14.41.39:8082/RM/xhtml/manageWorkItem/manageWorkItemsPage.xhtml
-07-Aug-2015__03_22_53PM devpinoyLogger delete_record_if_already_present
-07-Aug-2015__03_22_53PM devpinoyLogger Verifying that the record is present in the db table or not
-07-Aug-2015__03_22_53PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__03_22_53PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__03_22_54PM devpinoyLogger Running the Prepared Statement
-07-Aug-2015__03_22_54PM devpinoyLogger The result of data in db after adding the data is 1
-07-Aug-2015__03_22_54PM devpinoyLogger The record is present in the db table - DEPARTMENT
-07-Aug-2015__03_22_54PM devpinoyLogger Verifying that the record is present in the web table or not
-07-Aug-2015__03_22_54PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__03_22_54PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__03_22_55PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__03_23_01PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__03_23_01PM devpinoyLogger The record successfully deleted
-07-Aug-2015__03_23_01PM devpinoyLogger delete_record_if_already_present method finished
-07-Aug-2015__03_23_01PM devpinoyLogger PASS
-07-Aug-2015__03_23_01PM devpinoyLogger waitForElementInVisibilityinWebTable
-07-Aug-2015__03_23_01PM devpinoyLogger Waiting for an element to be invisible
-07-Aug-2015__03_23_01PM devpinoyLogger PASS
-07-Aug-2015__03_23_01PM devpinoyLogger verify_department_count
-07-Aug-2015__03_23_01PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__03_23_01PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__03_23_02PM devpinoyLogger The DEPARTMENT count in the Database = 55 and the count on the Web Page = 55. The count is matching.
-07-Aug-2015__03_23_02PM devpinoyLogger PASS
-07-Aug-2015__03_23_02PM devpinoyLogger writeInInput
-07-Aug-2015__03_23_02PM devpinoyLogger Writing in text box
-07-Aug-2015__03_23_02PM devpinoyLogger PASS
-07-Aug-2015__03_23_02PM devpinoyLogger clickButton
-07-Aug-2015__03_23_02PM devpinoyLogger Clicking on Button
-07-Aug-2015__03_23_02PM devpinoyLogger PASS
-07-Aug-2015__03_23_02PM devpinoyLogger waitForElementVisibilityinWebTable
-07-Aug-2015__03_23_02PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__03_23_02PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__03_23_02PM devpinoyLogger Waiting for an element to be visible
-07-Aug-2015__03_23_02PM devpinoyLogger PASS
-07-Aug-2015__03_23_02PM devpinoyLogger verify_department_count
-07-Aug-2015__03_23_02PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__03_23_02PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__03_23_02PM devpinoyLogger The DEPARTMENT count in the Database = 55 and the count on the Web Page = 55. The count is matching.
-07-Aug-2015__03_23_02PM devpinoyLogger PASS
-07-Aug-2015__03_23_02PM devpinoyLogger verify_data_found_into_database
-07-Aug-2015__03_23_02PM devpinoyLogger Verifying that the record is present in the db table or not
-07-Aug-2015__03_23_02PM devpinoyLogger Waiting for invisibilty of Ajax Loader
-07-Aug-2015__03_23_02PM devpinoyLogger Ajax Loader gone
-07-Aug-2015__03_23_03PM devpinoyLogger Running the Prepared Statement
-07-Aug-2015__03_23_03PM devpinoyLogger The result of data in db after adding the data is 0
-07-Aug-2015__03_23_03PM devpinoyLogger The record is not present in the db table - DEPARTMENT
-07-Aug-2015__03_23_03PM devpinoyLogger FAIL: -- The record is not present in the db table -DEPARTMENT
-07-Aug-2015__03_23_04PM devpinoyLogger confirm_delete_record
+08-Aug-2015__02_19_06PM devpinoyLogger Hello
+08-Aug-2015__02_19_06PM devpinoyLogger -------- Oracle JDBC Connection . Connecting to Oracle database------
+08-Aug-2015__02_19_13PM devpinoyLogger Connection to the Database was successful
+08-Aug-2015__02_19_13PM devpinoyLogger Properties loaded. Starting testing
+08-Aug-2015__02_19_13PM devpinoyLogger Initialize Suite xlsx
+08-Aug-2015__02_19_14PM devpinoyLogger Login_Test_Suite -- N
+08-Aug-2015__02_19_14PM devpinoyLogger Department_Test_Suite -- Y
+08-Aug-2015__02_19_14PM devpinoyLogger ******Executing the Suite******Department_Test_Suite
+08-Aug-2015__02_19_14PM devpinoyLogger Blank_Department_Test -- N
+08-Aug-2015__02_19_14PM devpinoyLogger Add_Del_Department_Test -- Y
+08-Aug-2015__02_19_14PM devpinoyLogger Executing the test case -> Add_Del_Department_Test
+08-Aug-2015__02_19_14PM devpinoyLogger Iteration number 1
+08-Aug-2015__02_19_14PM devpinoyLogger openBrowser
+08-Aug-2015__02_19_14PM devpinoyLogger Opening browser
+08-Aug-2015__02_19_20PM devpinoyLogger PASS
+08-Aug-2015__02_19_20PM devpinoyLogger loginToRMApplication
+08-Aug-2015__02_19_35PM devpinoyLogger Logging in to the Application
+08-Aug-2015__02_20_07PM devpinoyLogger PASS
+08-Aug-2015__02_20_07PM devpinoyLogger clickLink
+08-Aug-2015__02_20_07PM devpinoyLogger Clicking on link 
+08-Aug-2015__02_20_22PM devpinoyLogger FAIL -- Not able to click on linkUnable to find element with xpath == //div[@id='menu']//a[contains(text(),'Ressurshåndtering')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.14 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WL306232', ip: '10.32.218.210', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:37368/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6128ca1d-7235-46de-ac59-5d828704970a
+*** Element info: {Using=xpath, value=//div[@id='menu']//a[contains(text(),'Ressurshåndtering')]}
+08-Aug-2015__02_20_25PM devpinoyLogger clickLink
+08-Aug-2015__02_20_25PM devpinoyLogger Clicking on link 
+08-Aug-2015__02_20_41PM devpinoyLogger FAIL -- Not able to click on linkUnable to find element with xpath == //div[@id='menu']//a[contains(@href,'manageDepartmentPage')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 15.88 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WL306232', ip: '10.32.218.210', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:37368/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6128ca1d-7235-46de-ac59-5d828704970a
+*** Element info: {Using=xpath, value=//div[@id='menu']//a[contains(@href,'manageDepartmentPage')]}
+08-Aug-2015__02_20_42PM devpinoyLogger verifyPageNavigation
+08-Aug-2015__02_20_42PM devpinoyLogger Verifying whether the navigation was successful
+08-Aug-2015__02_20_42PM devpinoyLogger Test to check that the user is not taken to another page
+08-Aug-2015__02_20_43PM devpinoyLogger FAIL -- User not taken to the expected page. Actual url = http://10.14.41.39:8082/RM/xhtml/manageWorkItem/manageWorkItemsPage.xhtml
+08-Aug-2015__02_20_43PM devpinoyLogger delete_record_if_already_present
+08-Aug-2015__02_20_43PM devpinoyLogger Verifying that the record is present in the db table or not
+08-Aug-2015__02_20_43PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+08-Aug-2015__02_20_44PM devpinoyLogger Ajax Loader gone
+08-Aug-2015__02_20_45PM devpinoyLogger Running the Prepared Statement
+08-Aug-2015__02_20_45PM devpinoyLogger The result of data in db after adding the data is 0
+08-Aug-2015__02_20_45PM devpinoyLogger The record is not present in the db table - DEPARTMENT
+08-Aug-2015__02_20_45PM devpinoyLogger Verifying that the record is present in the web table or not
+08-Aug-2015__02_20_45PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+08-Aug-2015__02_20_46PM devpinoyLogger Ajax Loader gone
+08-Aug-2015__02_21_07PM devpinoyLogger delete_record_if_already_present method finished
+08-Aug-2015__02_21_07PM devpinoyLogger PASS
+08-Aug-2015__02_21_07PM devpinoyLogger waitForElementInVisibilityinWebTable
+08-Aug-2015__02_21_07PM devpinoyLogger Waiting for an element to be invisible
+08-Aug-2015__02_21_07PM devpinoyLogger PASS
+08-Aug-2015__02_21_07PM devpinoyLogger verify_department_count
+08-Aug-2015__02_21_07PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+08-Aug-2015__02_21_11PM devpinoyLogger Ajax Loader gone
+08-Aug-2015__02_21_31PM devpinoyLogger FAIL: -- Not able to find the WebTable or rows inside the WebTable. 
+Unable to find element with xpath == //table[contains(@id,'pngDepartment')]//tbody[contains(@id,'departmentTblId_data')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.17 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WL306232', ip: '10.32.218.210', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:37368/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6128ca1d-7235-46de-ac59-5d828704970a
+*** Element info: {Using=xpath, value=//table[contains(@id,'pngDepartment')]//tbody[contains(@id,'departmentTblId_data')]}
+08-Aug-2015__02_21_32PM devpinoyLogger writeInInput
+08-Aug-2015__02_21_32PM devpinoyLogger Writing in text box
+08-Aug-2015__02_21_53PM devpinoyLogger FAIL Unable to write in the text box - Unable to find element with xpath == //input[contains(@id,'manageDepartmentForm:deptName') and contains(@name,'manageDepartmentForm:deptName')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.55 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WL306232', ip: '10.32.218.210', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:37368/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6128ca1d-7235-46de-ac59-5d828704970a
+*** Element info: {Using=xpath, value=//input[contains(@id,'manageDepartmentForm:deptName') and contains(@name,'manageDepartmentForm:deptName')]}
+08-Aug-2015__02_21_54PM devpinoyLogger clickButton
+08-Aug-2015__02_21_54PM devpinoyLogger Clicking on Button
+08-Aug-2015__02_22_06PM devpinoyLogger FAIL -- Not able to click on ButtonCannot click on element (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 6.89 seconds
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WL306232', ip: '10.32.218.210', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:37368/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6128ca1d-7235-46de-ac59-5d828704970a
+08-Aug-2015__02_22_06PM devpinoyLogger waitForElementVisibilityinWebTable
+08-Aug-2015__02_22_06PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+08-Aug-2015__02_22_06PM devpinoyLogger Ajax Loader gone
+08-Aug-2015__02_22_06PM devpinoyLogger Waiting for an element to be visible
+08-Aug-2015__02_22_06PM devpinoyLogger PASS
+08-Aug-2015__02_22_06PM devpinoyLogger verify_department_count
+08-Aug-2015__02_22_06PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+08-Aug-2015__02_22_06PM devpinoyLogger Ajax Loader gone
+08-Aug-2015__02_22_07PM devpinoyLogger The DEPARTMENT count in the Database = 55 and the count on the Web Page = 55. The count is matching.
+08-Aug-2015__02_22_07PM devpinoyLogger PASS
+08-Aug-2015__02_22_07PM devpinoyLogger verify_data_found_into_database
+08-Aug-2015__02_22_07PM devpinoyLogger Verifying that the record is present in the db table or not
+08-Aug-2015__02_22_07PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+08-Aug-2015__02_22_07PM devpinoyLogger Ajax Loader gone
+08-Aug-2015__02_22_08PM devpinoyLogger Running the Prepared Statement
+08-Aug-2015__02_22_08PM devpinoyLogger The result of data in db after adding the data is 0
+08-Aug-2015__02_22_08PM devpinoyLogger The record is not present in the db table - DEPARTMENT
+08-Aug-2015__02_22_08PM devpinoyLogger FAIL: -- The record is not present in the db table -DEPARTMENT
+08-Aug-2015__02_22_09PM devpinoyLogger confirm_delete_record
+08-Aug-2015__02_22_29PM devpinoyLogger The Delete Link was not found on the pageUnable to find element with xpath == //table[contains(@id,'pngDepartment')]//tbody[contains(@id,'departmentTblId_data')]//div[text()='TestRMShrikant']/../../..//a[contains(@id,'delDeptLinkId')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WL306232', ip: '10.32.218.210', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:37368/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6128ca1d-7235-46de-ac59-5d828704970a
+*** Element info: {Using=xpath, value=//table[contains(@id,'pngDepartment')]//tbody[contains(@id,'departmentTblId_data')]//div[text()='TestRMShrikant']/../../..//a[contains(@id,'delDeptLinkId')]}
+08-Aug-2015__02_22_29PM devpinoyLogger FAIL: -- Not able to find the Delete Link for the record - TestRMShrikant.
+Unable to find element with xpath == //table[contains(@id,'pngDepartment')]//tbody[contains(@id,'departmentTblId_data')]//div[text()='TestRMShrikant']/../../..//a[contains(@id,'delDeptLinkId')] (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 20.09 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'WL306232', ip: '10.32.218.210', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_25'
+Driver info: org.openqa.selenium.ie.InternetExplorerDriver
+Capabilities [{browserAttachTimeout=0, enablePersistentHover=true, ie.forceCreateProcessApi=false, pageLoadStrategy=normal, ie.usePerProcessProxy=false, ignoreZoomSetting=false, handlesAlerts=true, version=10, platform=WINDOWS, nativeEvents=true, ie.ensureCleanSession=false, elementScrollBehavior=0, ie.browserCommandLineSwitches=, requireWindowFocus=false, browserName=internet explorer, initialBrowserUrl=http://localhost:37368/, takesScreenshot=true, javascriptEnabled=true, ignoreProtectedModeSettings=true, enableElementCacheCleanup=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=dismiss}]
+Session ID: 6128ca1d-7235-46de-ac59-5d828704970a
+*** Element info: {Using=xpath, value=//table[contains(@id,'pngDepartment')]//tbody[contains(@id,'departmentTblId_data')]//div[text()='TestRMShrikant']/../../..//a[contains(@id,'delDeptLinkId')]}
+08-Aug-2015__02_22_29PM devpinoyLogger verify_data_deleted_from_database
+08-Aug-2015__02_22_29PM devpinoyLogger Verifying that the record is deleted from the db table or not
+08-Aug-2015__02_22_29PM devpinoyLogger Waiting for invisibilty of Ajax Loader
+08-Aug-2015__02_22_29PM devpinoyLogger Ajax Loader gone
+08-Aug-2015__02_22_39PM devpinoyLogger Running the Prepared Statement
+08-Aug-2015__02_22_39PM devpinoyLogger The record was also found to be deleted from the db table - DEPARTMENT
+08-Aug-2015__02_22_39PM devpinoyLogger PASS
+08-Aug-2015__02_22_39PM devpinoyLogger logoutApplication
+08-Aug-2015__02_22_39PM devpinoyLogger Logging out of the Application
+08-Aug-2015__02_22_40PM devpinoyLogger PASS
+08-Aug-2015__02_22_44PM devpinoyLogger Edit_Department_Test -- N
